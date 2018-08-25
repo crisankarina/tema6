@@ -33,8 +33,8 @@ function onHtmlLoaded(){
     });
 
     
-    var buttonFarenheit = document.getElementById("fahrenheitButtonId");
-    buttonFarenheit.addEventListener("click", function(){
+    var buttonFahrenheit = document.getElementById("fahrenheitButtonId");
+    buttonFahrenheit.addEventListener("click", function(){
         displayTemp(weather, "city");
         displayTemp(weather, "temp_f");
         
